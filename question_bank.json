@@ -1,157 +1,188 @@
 {
-  "paper_1": {
-    "topics": {
-      "1": { "name": "Swastha and Swasthya", "marks": 6, "laq_eligible": false },
-      "2_3_4": { "name": "Healthy Lifestyle (Dinacharya + Ratricharya + Ritucharya)", "marks": 38, "laq_eligible": true },
-      "5_6": { "name": "Roganutpadaniya + Sadvritta", "marks": 13, "laq_eligible": false },
-      "7": { "name": "Ahara", "marks": 20, "laq_eligible": true },
-      "8": { "name": "Rasayana for Swastha", "marks": 5, "laq_eligible": false },
-      "9_10": { "name": "Yoga + Naturopathy", "marks": 18, "laq_eligible": true }
-    },
+  "topic_groups": {
+    "1": { "name": "Swastha and Swasthya", "marks": 6, "laq_eligible": false },
+    "2_3_4": { "name": "Healthy Lifestyle (Dinacharya + Ratricharya + Ritucharya)", "marks": 38, "laq_eligible": true },
+    "5_6": { "name": "Roganutpadaniya + Sadvritta", "marks": 13, "laq_eligible": true },
+    "7": { "name": "Ahara", "marks": 20, "laq_eligible": true },
+    "8": { "name": "Rasayana for Swastha", "marks": 5, "laq_eligible": false },
+    "9_10": { "name": "Yoga + Naturopathy", "marks": 18, "laq_eligible": true },
 
-    "saq_pool": {
-      "1": [
-        "Define Swasthavritta and describe its objectives.",
-        "Describe and compare Swasthalakshanas, Arogyalakshanas, and Dhatusamyalakshanas.",
-        "Explain the concept of Health and the operational definition of Health.",
-        "Explain the physical, mental and social dimensions of health.",
-        "Describe the objective and subjective components of wellbeing."
-      ],
-
-      "2_3_4": [
-        "Explain Usha-Jalapana and its health benefits.",
-        "Describe Malatyaga and its relation to Vata Kala.",
-        "Explain Mukhaprakshalana with procedure and benefits.",
-        "Describe Dantadhavana according to Ayurveda and modern dentistry.",
-        "Explain Jihwanirlekhana and its present-day tools.",
-        "Describe Anjana dravyas and their health benefits.",
-        "Explain Pratimarsha Nasya—procedure and benefits.",
-        "Describe Kavala and Gandusha as oral cleansing practices.",
-        "Explain Prayogika Dhoomapana with benefits and contraindications.",
-        "Explain ill-effects of tobacco smoking.",
-        "Describe Sarvanga Abhyanga, Padabhyanga, Shiroabhyanga with physiological benefits.",
-        "Explain indications and contraindications for Vyayama.",
-        "Explain Ardha-Shakti Lakshanas of Vyayama.",
-        "Describe Udvartana, Udgharshana, Utsadana with differences.",
-        "Explain physiological effects of Snana.",
-        "Explain importance of Anulepana.",
-        "Explain importance of proper clothing (Vastradharana).",
-        "Describe Ratri Bhojanavidhi.",
-        "Explain Nidra and its relation to health.",
-        "Describe effects of Yukta and Ayukta Nidra.",
-        "Explain Ratri Jagarana and Diwaswapna.",
-        "Describe Brahmacharya in lifestyle."
-      ],
-
-      "7": [
-        "Explain significance of Ahara for health according to Ayurveda.",
-        "Classify Ahara dravyas according to Ayurveda and modern science.",
-        "Explain Ahara Vidhi-Vidhana and Dwadasha Ashana Pravicharana.",
-        "Explain Pathya-Apathya, Samashana, Vishamashana with examples.",
-        "Describe Santarpanajanya and Apatarpanajanya Vyadhis.",
-        "Explain Shad-Rasa Bhojana.",
-        "Explain Nityasevaniya Dravyas.",
-        "Describe proximate principles of food and RDA.",
-        "Explain Balanced Diet and dietary needs by age and physiology.",
-        "Explain Viruddha Ahara with examples."
-      ],
-
-      "8": [
-        "Define Rasayana and its benefits.",
-        "Classify Rasayana types.",
-        "Explain lifestyle counselling in Rasayana.",
-        "Explain Urjaskara Rasayana by age."
-      ],
-
-      "9_10": [
-        "Describe adverse effects of improper Yoga practices.",
-        "Define Yoga according to classical texts.",
-        "Explain Yogabhyasa Pratibandhakas.",
-        "Explain Mitahara and Pathya-Apathya.",
-        "Explain Panchakosha theory.",
-        "Describe Asanas—standing, sitting, prone—procedure & contraindications.",
-        "Define Pranayama and explain its types.",
-        "Explain Nadishuddhi Pranayama.",
-        "Describe Kumbhaka Bhedas.",
-        "Describe Shatkarmas in Yoga.",
-        "Describe Bandhas—Mula, Uddiyana, Jalandhara."
-      ]
-    },
-
-    "laq_pool": {
-      "2_3_4": [
-        "Discuss Dinacharya, Ratricharya and Ritucharya in detail with their preventive and promotive roles.",
-        "Explain Niyata Kala and Aniyata Kala Vihara with Ayurvedic applications.",
-        "Describe all daily health practices (Ushapana to Vastradharana) in depth.",
-        "Explain Ritucharya with Tridosha, Agni and Bala relationships."
-      ],
-      "7": [
-        "Explain Ahara Vidhi-Vidhana in detail and correlate with nutrition science.",
-        "Discuss Viruddha Ahara comprehensively.",
-        "Explain Pathya-Apathya and improper dietary habits with lifestyle disorders."
-      ],
-      "9_10": [
-        "Explain Pranayama in detail with types, indications and benefits.",
-        "Explain Panchakosha theory and its applications.",
-        "Describe Shatkarmas in detail with clinical relevance."
-      ]
-    }
+    "11": { "name": "Janapadodhwamsa / Maraka Vyadhi", "marks": 10, "laq_eligible": true },
+    "12_13": { "name": "Environmental Health + Disaster Management", "marks": 16, "laq_eligible": true },
+    "14_15_16": { "name": "Occupational Health + School Health Services + Disinfection", "marks": 20, "laq_eligible": true },
+    "17_18_19_20": { "name": "Primary Health Care + MCH Care + Family Welfare + Preventive Geriatrics", "marks": 20, "laq_eligible": true },
+    "21_22_23": { "name": "WHO + Vital Statistics + Health Administration", "marks": 19, "laq_eligible": true },
+    "24_25": { "name": "National Health Programmes + National Health Policy", "marks": 15, "laq_eligible": true }
   },
 
-  "paper_2": {
-    "topics": {
-      "11": { "name": "Janapadodhwamsa / Maraka Vyadhi", "marks": 10, "laq_eligible": true },
-      "12_13": { "name": "Environmental Health + Disaster Management", "marks": 16, "laq_eligible": true },
-      "14_15_16": { "name": "Occupational Health + School Health + Disinfection", "marks": 20, "laq_eligible": false },
-      "17_18_19_20": { "name": "Primary Health Care + MCH + Family Welfare + Geriatrics", "marks": 20, "laq_eligible": true },
-      "21_22_23": { "name": "WHO + Vital Statistics + Health Administration", "marks": 19, "laq_eligible": false },
-      "24_25": { "name": "National Health Programmes + National Health Policy", "marks": 15, "laq_eligible": true }
-    },
+  "saq_pool": {
+    "1": [
+      "Define Swasthavritta and state its objectives.",
+      "Describe and compare Swasthalakshanas, Arogyalakshanas, and Dhatusamyalakshanas.",
+      "Explain the concept of health and the operational definition of health.",
+      "Describe the importance of Shodhana in Swastha with reference to Sanchita and Asanchita Dosha.",
+      "Classify Swastha Purusha into Sanchita Dosha and Asanchita Dosha.",
+      "Explain physical, mental and social dimensions of health.",
+      "Explain objective and subjective components of well-being."
+    ],
 
-    "saq_pool": {
-      "11": [
-        "Explain causes and manifestation of Janapadodhwamsa.",
-        "Explain role of Panchakarma and Rasayana in epidemics."
-      ],
+    "2_3_4": [
+      "Explain preventive levels in Ayurveda with examples.",
+      "Explain importance of Ahara & Vihara in health.",
+      "Explain Niyata & Aniyata Kala Vihara.",
+      "Describe Usha-Jalapana benefits.",
+      "Explain Malatyaga and bowel habits.",
+      "Procedure and benefits of Mukhaprakshalana.",
+      "Explain Dantadhavana – herbs, procedure, contraindications.",
+      "Explain Jihwanirlekhana and its benefits.",
+      "Explain Anjana dravyas and their benefits.",
+      "Describe Pratimarsha Nasya – dravyas, dose, benefits.",
+      "Explain Kavala & Gandusha benefits.",
+      "Explain Abhyanga dravyas for seasons.",
+      "Explain Prayogika Dhoomapana.",
+      "Explain harmful effects of tobacco.",
+      "Explain Vyayama – types, indications, contraindications.",
+      "Explain Udvartana, Udgharshana, Utsadana.",
+      "Explain physiological effects of Snana.",
+      "Explain importance of Anulepana.",
+      "Explain importance of Vastradharana."
+    ],
 
-      "12_13": [
-        "Explain water pollution and health hazards.",
-        "Describe methods of water purification (modern + Ayurvedic).",
-        "Explain biomedical waste management.",
-        "Explain disaster management principles."
-      ],
+    "5_6": [
+      "Explain Vegadharana and health implications.",
+      "Compare Adharaniya Vega–Janya Vyadhis.",
+      "Explain Vega-Udirana with examples.",
+      "Explain Dharaneeya Vegas in mental health.",
+      "Describe Digital Health.",
+      "Explain Digital Health problems.",
+      "Explain Sadvritta and prevention of Adharma.",
+      "Explain Achara Rasayana.",
+      "Explain characteristics of a mentally healthy person.",
+      "Describe mental health services overview."
+    ],
 
-      "14_15_16": [
-        "Explain occupational hazards.",
-        "Explain duties of school medical officer.",
-        "Explain disinfection and its types."
-      ],
+    "7": [
+      "Explain significance of Ahara in Ayurveda and modern science.",
+      "Classify Ahara dravyas.",
+      "Explain Ahara Vidhi-Vidhana.",
+      "Explain Pathyahara, Apathyahara, Samashana, Adhyashana.",
+      "Explain Santarpana & Apatarpana disorders.",
+      "Explain Shadrasa Bhojana benefits.",
+      "Explain Ashta-Aharavidhi Vishesha Ayatanani.",
+      "Explain Nityasevaniya Dravyas.",
+      "Explain properties of Ahara Dravyas and nutritive values.",
+      "Explain proximate principles of food.",
+      "Define balanced diet and explain RDA.",
+      "Explain Viruddha Ahara with examples."
+    ],
 
-      "17_18_19_20": [
-        "Explain structure of PHC to CHC.",
-        "Explain objectives of MCH services.",
-        "Define demography and demographic cycle.",
-        "Explain lifestyle and healthy aging.",
-        "Describe role of Rasayana in geriatrics."
-      ]
-    },
+    "9_10": [
+      "Adverse effects of improper Yoga practices.",
+      "Etymology of Yoga.",
+      "Definitions of Yoga from classical texts.",
+      "Explain Yogabhyasa Pratibandhakas.",
+      "Explain Panchakosha theory.",
+      "Explain Yama and Niyama.",
+      "Explain Asana and its importance.",
+      "Explain Pranayama types and benefits.",
+      "Explain Nadishuddhi Pranayama procedure.",
+      "Explain selected Asanas (standing, sitting, prone).",
+      "Explain Shatkarmas.",
+      "Explain Bandhas – Mula, Jalandhara, Uddiyana."
+    ],
 
-    "laq_pool": {
-      "11": [
-        "Discuss epidemiology of communicable diseases with control strategies."
-      ],
+    "11": [
+      "Explain Epidemic Diseases Amendment Act 2020.",
+      "Explain causes and control of Janapadodhwamsa.",
+      "Explain Panchakarma and Rasayana role in epidemics.",
+      "Explain Susceptible host and host defense.",
+      "Explain Immunising agents and Vyadhikshamatwa.",
+      "Explain investigation of an epidemic."
+    ],
 
-      "12_13": [
-        "Explain environmental health in detail with water, waste and pollution management."
-      ],
+    "12_13": [
+      "Explain Environment Protection Act 1986.",
+      "Explain safe and wholesome water.",
+      "Explain water pollution and health hazards.",
+      "Explain water purification – modern and Ayurvedic.",
+      "Explain hard water effects.",
+      "Explain solid waste management.",
+      "Explain biomedical waste management."
+    ],
 
-      "17_18_19_20": [
-        "Describe structure, principles and functioning of Primary Health Care in India."
-      ],
+    "14_15_16": [
+      "Define Occupational Health and Ergonomics.",
+      "Explain occupational hazards.",
+      "Explain occupational diseases and prevention.",
+      "Explain ESI Act 1948 & Factories Act 1948.",
+      "Explain school health services.",
+      "Explain disinfection types."
+    ],
 
-      "24_25": [
-        "Discuss National Health Programmes in detail with goals and strategies."
-      ]
-    }
+    "17_18_19_20": [
+      "Explain Primary Health Care elements.",
+      "Explain PHC structure (Village to CHC).",
+      "Explain MCH objectives and indicators.",
+      "Explain family planning methods."
+    ],
+
+    "21_22_23": [
+      "Explain WHO structure and functions.",
+      "Explain international health agencies.",
+      "Explain Vital Statistics – fertility, mortality.",
+      "Explain Health Administration levels."
+    ],
+
+    "24_25": [
+      "Explain major National Health Programmes.",
+      "Explain National AYUSH Mission.",
+      "Explain National Health Policy and Ayurveda."
+    ]
+  },
+
+  "laq_pool": {
+    "2_3_4": [
+      "Explain Dinacharya, Ratricharya and Ritucharya in detail.",
+      "Explain Niyata & Aniyata Kala Vihara with mechanisms.",
+      "Discuss Usha Jalapana, Malatyaga, Nasya, Dhoomapana, Abhyanga, Snana in detail.",
+      "Explain Ritucharya – Sanchaya, Prakopa, Prashamana, Agni, Bala, Ritu Sandhi."
+    ],
+
+    "7": [
+      "Explain Ahara Vidhi–Vidhana in detail.",
+      "Explain Viruddha Ahara – mechanisms & clinical relevance.",
+      "Discuss Pathya–Apathya in lifestyle disorders.",
+      "Explain Shadrasa, Vishesha Ayatanani, Nityasevaniya Dravyas."
+    ],
+
+    "9_10": [
+      "Explain Pranayama in detail.",
+      "Explain Panchakosha theory and relevance.",
+      "Explain Shatkarmas – procedures and indications.",
+      "Explain principles of Naturopathy with Ayurveda correlation."
+    ],
+
+    "11": [
+      "Explain epidemiological triad & natural history of disease.",
+      "Explain steps of epidemic investigation.",
+      "Explain determinants of major communicable diseases."
+    ],
+
+    "12_13": [
+      "Discuss environmental health in detail.",
+      "Explain water purification and waste management in depth."
+    ],
+
+    "17_18_19_20": [
+      "Discuss structure & functioning of Primary Health Care.",
+      "Explain Maternal & Child Health services.",
+      "Explain Family Welfare programmes."
+    ],
+
+    "24_25": [
+      "Discuss major National Health Programmes in detail.",
+      "Explain National AYUSH Mission.",
+      "Explain National Health Policy & Ayurveda integration."
+    ]
   }
 }
